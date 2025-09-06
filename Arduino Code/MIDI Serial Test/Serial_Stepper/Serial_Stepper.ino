@@ -11,9 +11,9 @@
  */
 #include "pitches.h"
 
-//ARDUINO PINS
-#define stepPin 2
-#define dirPin 5
+//ARDUINO PINS for Y axis
+#define stepPin 3
+#define dirPin 6
 #define enPin 8
 
 unsigned long motorSpeed = 0;
