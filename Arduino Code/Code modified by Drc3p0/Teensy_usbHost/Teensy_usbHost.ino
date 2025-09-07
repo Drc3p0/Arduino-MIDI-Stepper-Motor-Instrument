@@ -1,3 +1,6 @@
+/* Uses the Teensy 4.1 Takes MIDI from usbMIDI devices and sends those signals via pin 8/TX to the CNCshield RX. */
+ 
+
 #include <USBHost_t36.h>
 
 USBHost myusb;
